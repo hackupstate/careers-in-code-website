@@ -9,6 +9,10 @@
   width: auto;
 }
 
+.grey {
+  color: #8d959a;
+}
+
 .jumbotronContentWrapper {
   margin-top: 0;
 }
@@ -92,11 +96,37 @@
   margin-bottom: 300px
 }
 
+.middleText {
+  padding-top: 5%;
+}
+
+.secondMiddleText {
+  padding-top: 15%;
+  padding-right: 10%;
+}
+
+.arrow {
+  height: 10px;
+}
+
+.blueRead {
+  color: #2299dd;
+}
+
+.secondBlueArrow {
+  position: absolute;
+  padding-left: 21%;
+}
+
 .blueLines {
   height: 273px;
   width: auto;
   top: 108px;
   right: 351px;
+}
+
+.giantBlue {
+  padding-right: 0px;
 }
 
 .thirdRowPadding {
@@ -116,8 +146,8 @@
 .greenLines {
   height: 413px;
   width: 315px;
-  top: 235px;
-  right: 354px;
+  top: 44%;
+  right: 33%;
 }
 
 .chat {
@@ -130,6 +160,7 @@
 .thirdRowParagraph {
   padding-left: 25%;
   padding-right: auto;
+  font-weight: 900;
 }
 
 .blueSquare {
@@ -164,8 +195,8 @@
 .bottomRightLines {
   height: 178px;
   width: auto;
-  right: 65%;
-  top: 71%;
+  right: 71%;
+  top: 75%;
 }
 
 .bottomLeftLines {
@@ -178,5 +209,15 @@
 .bottomBlueText {
   color: white;
   padding-left: 10%;
-  padding-top: 5%;
+  padding-top: 15%;
+  padding-right: 10%;
 }
+ .bottomTeachersText {
+  padding-left: 10%;
+  padding-top: 15%;
+  padding-right: 10%;
+ }
+
+ .greenRead {
+  color: #33ff99;
+ }
