@@ -71,9 +71,7 @@
 }
 
 .mainQuote {
-  padding-top: 50px;
-  padding-left: auto;
-  padding-right: 25%;
+  width: 80%;
   /* position: relative; */
 }
 
@@ -170,9 +168,8 @@
 }
 
 .greenQuotation {
-  height: 100px;
+  height: 10%;
   width: auto;
-  position: absolute;
 }
 
 .bottomBlueSquare {
