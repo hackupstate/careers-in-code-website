@@ -4,9 +4,34 @@
   font-style: normal;
 }
 
+.jumbotron {
+  padding: 1rem 2rem;
+}
+
 .logo {
   height: 45px;
   width: auto;
+}
+
+.getStarted {
+  background-color: transparent;
+  height: 45px;
+  width: auto;
+  border-radius: 0px;
+  border: white;
+  border-width: medium;
+  border-style: solid;
+  color: white;
+  margin-left: 5%;
+}
+
+.explore {
+  background-color: white;
+  height: 45px;
+  width: auto;
+  border-radius: 0px;
+  color: #2299dd;
+  font-weight: bolder;
 }
 
 .grey {
@@ -41,6 +66,10 @@
   color: white;
 }
 
+.jumbotextPadding {
+  padding-left: 10%;
+}
+
 #navbarSupportedContent {
   display: inherit;
   flex-direction: row-reverse;
@@ -56,9 +85,10 @@
 }
 
 .studyGirl {
-  background-image: url("./assets/hero-1.jpg");
+  background-image: url(./assets/hero-8-wide.jpg);
   height: 700px;
   background-size: cover;
+  background-position: center;
 
 }
 
@@ -77,21 +107,20 @@
 
 .greenSquare {
   background-color: #33ff99;
-  width: 584px;
-  height: 511px;
+  width: 65%;
+  height: 185%;
   /* display: block; */
   position: absolute;
-  top: -75px;
-  right: 15%;
+  top: 3px;
+  right: 0%;
 }
 
 .sadGirl {
-  /* position: absolute; */
-  top: 32px;
-  right: 5%;
-  width: 435px;
+  top: 45%;
+  right: 15%;
+  width: 65%;
   padding-bottom: 300px;
-  margin-bottom: 300px
+  margin-bottom: 300px;
 }
 
 .middleText {
@@ -117,10 +146,10 @@
 }
 
 .blueLines {
-  height: 273px;
-  width: auto;
-  top: 108px;
-  right: 351px;
+  width: 50%;
+  top: 100%;
+  height: 100%;
+  left: 75%;
 }
 
 .giantBlue {
