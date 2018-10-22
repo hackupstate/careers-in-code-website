@@ -4,6 +4,11 @@
   font-style: normal;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .jumbotron {
   padding: 1rem 2rem;
 }
@@ -93,11 +98,15 @@
 }
 
 .middle { 
-  height: 300px; 
+  height: 400px; 
 }
 
 .bottom {
-  height: 300px;
+  height: 400px;
+  padding-bottom: 30px;
+  margin-bottom: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .mainQuote {
@@ -107,18 +116,18 @@
 
 .greenSquare {
   background-color: #33ff99;
-  width: 65%;
-  height: 185%;
+  width: 100%;
+  height: 35rem;
   /* display: block; */
   position: absolute;
-  top: 3px;
-  right: 0%;
+  top: 10%;
+  left: 30%;
 }
 
 .sadGirl {
-  top: 45%;
-  right: 15%;
-  width: 65%;
+  top: 57%;
+  /* right: 0%; */
+  width: 102%;
   padding-bottom: 300px;
   margin-bottom: 300px;
 }
@@ -147,9 +156,10 @@
 
 .blueLines {
   width: 50%;
-  top: 100%;
-  height: 100%;
-  left: 75%;
+  /* bottom: -14%; */
+  top: 173%;
+  height: 18rem;
+  left: 99%;
 }
 
 .giantBlue {
@@ -159,7 +169,7 @@
 .thirdRowPadding {
   padding-right: 0;
   padding-left: 0;
-  padding-top: 250px;
+  margin-top: 15%;
 }
 
 .busyPeople {
@@ -192,8 +202,8 @@
 
 .blueSquare {
   background-color: #2299dd;
-  width: 100%;
-  height: 550px;
+  width: 50%;
+  height: 32rem;
 }
 
 .greenQuotation {
@@ -203,13 +213,12 @@
 
 .bottomBlueSquare {
   background-color: #2299dd;
-  height: 300px;
-  width: auto;
+  height: 40rem;
+  width: 50%;
 }
 
 .bottomMiddle {
   padding-top: 8%;
-  padding-bottom: 8%;
 }
 
 .bottom {
@@ -246,4 +255,42 @@
 
  .greenRead {
   color: #33ff99;
+ }
+
+ .tail {
+  height: 40rem;
+  background-color: #002333;
+  margin-top: 25%
+ }
+
+ .footerText {
+  color: white;
+  font-size: 17px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
+ }
+
+ .list-group-item-action {
+   margin-bottom: 8%;
+ }
+
+ .footerLinks {
+   color: white;
+   list-style-type: none;
+ }
+
+ .footerLogo {
+   padding-top: 7%;
+   padding-left: 7%;
+ }
+
+ .twitFace {
+  padding-top: 50%;
+ }
+ 
+ .termsPolicy {
+  line-height: 0px;
+  font-size: x-small;
+  margin-top: 20%;
  }
