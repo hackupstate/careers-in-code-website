@@ -276,7 +276,6 @@ h2 {
  }
 
  .tail {
-  height: 40rem;
   background-color: #002333;
   margin-top: 25%
  }
@@ -304,7 +303,7 @@ h2 {
  }
 
  .twitFace {
-  padding-top: 50%;
+  margin-top: 50%;
  }
 
  .footLogo {
@@ -318,7 +317,7 @@ h2 {
  .termsPolicy {
   line-height: 0px;
   font-size: x-small;
-  margin-top: 20%;
+  margin-top: 10%;
  }
 
  /* student stuff */
@@ -329,3 +328,84 @@ h2 {
   background-size: cover;
   background-position: center;
  }
+
+ .studentBlueLines {
+  height: 40%;
+  width: auto;
+  top: 15%;
+  left: 10%;
+ }
+
+ .studentGreenSquare {
+  background-color: #33ff99;
+  width: 60%;
+  height: 36rem;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+ }
+
+ .studentSadGirl {
+  top: 28%;
+  right: 10%;
+  width: 50%;
+ }
+
+ .code_ {
+   color: #002333;
+ }
+
+ .getStartedGreen {
+  color: #33ff99;
+  background-color: white;
+  border: #33ff99;
+  border-width: medium;
+  border-style: solid;
+  margin-left: 5px;
+ }
+
+ .studentBlueSquare {
+  background-color: #2299dd;
+  width: 75%;
+  height: 32rem;
+  margin-right: 0;
+  margin-left: auto;
+ }
+
+ .studentThirdRowPadding {
+  margin-top: 4%;
+ }
+
+ .muchConcentrate {
+  left: 15%;
+  width: 50%;
+  top: 10%;
+ }
+
+ .studentGreenLines {
+  width: 26%;
+  top: 43%;
+  right: 66%;
+ }
+
+ .studentChat {
+  width: 5%;
+  top: -5%;
+  right: 27%;
+ }
+
+ .studentBlueButton {
+   background-color: #2299dd;
+   color: white;
+   border-radius: 0;
+ }
+
+ .studentSecondMiddleText {
+  padding-top: 15%;
+  padding-left: 20%;
+ }
+
+ .studentTail {
+  background-color: #002333;
+  margin-top: 10%;
+}
