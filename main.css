@@ -322,9 +322,14 @@ h2 {
 
  /* student stuff */
 
+ .studentNavLogo {
+  height: 45px;
+  width: auto;
+ }
+
  .middleGreyImage {
   background-image: url(./assets/light-hero-1.jpg);
-  height: 500px;
+  height: 32rem;
   background-size: cover;
   background-position: center;
  }
@@ -408,4 +413,11 @@ h2 {
  .studentTail {
   background-color: #002333;
   margin-top: 10%;
+}
+
+.studentStats {
+  width: 50%;
+  margin-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
