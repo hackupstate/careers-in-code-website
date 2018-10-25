@@ -4,10 +4,21 @@
   font-style: normal;
 }
 
-h2 {
+.proximaNovaBlack {
+font-family: proxima-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.proximaNovaThin {
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
+
+.careersCode {
   font-size: 30px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 3%;
 }
 
 .container-fluid {
@@ -420,4 +431,37 @@ h2 {
   margin-top: 5%;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.blueStats {
+  color: #002333;
+}
+
+.midBlue {
+  color: #2299dd;
+}
+
+.midGreen {
+  color: #2de187;
+}
+
+.studentNavLink {
+  color: #8d959a;
+}
+
+.vl {
+  border-left: 1px solid #002333;
+  height: 3rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav {
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* border-left: 1px solid #002333; */
+  height: 6%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
