@@ -486,8 +486,60 @@ font-style: normal;
   display: block;
 }
 
+/* For mobile */
+
 @media only screen and (max-width: 600px) {
   .studentBlueSquare {
       height: 25%;
+  }
+
+  .studentGreenSquare {
+    background-color: #33ff99;
+    width: 53%;
+    height: 11rem;
+    position: absolute;
+    top: 6%;
+    left: 37%
+  }
+
+  .mobileButtons {
+    display: inline-flex;
+  }
+
+  .sadGirlRow {
+    height: 50%;
+  }
+
+  .studentBlueLines {
+    height: 90%;
+    width: auto;
+    top: -15%;
+    left: 70%;
+  }
+
+  .middleText {
+    margin-top: 30%;
+    padding-top: 15%;
+  }
+
+  .muchConcentrate {
+    width: 70%;
+  }
+
+  .studentSadGirl {
+    top: 60%;
+    right: 10%;
+    width: 70%;
+  }
+
+  .studenGreenSquare {
+    width: 70%;
+  }
+
+  .studentBlueLines {
+    height: auto;
+    width: 25%;
+    top: -13%;
+    left: 61%;
   }
 }
