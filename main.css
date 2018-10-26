@@ -468,6 +468,7 @@ font-style: normal;
 
 .extraFooter {
   background-color: #002333;
+  padding-bottom: 2%;
 }
 
 .noBullets {
@@ -513,7 +514,7 @@ font-style: normal;
   .studentBlueLines {
     height: 90%;
     width: auto;
-    top: -15%;
+    top: -32%;
     left: 70%;
   }
 
@@ -533,7 +534,9 @@ font-style: normal;
   }
 
   .studenGreenSquare {
-    width: 70%;
+    width: 61%;
+    top: -15%;
+    left: 37%;
   }
 
   .studentBlueLines {
@@ -541,5 +544,10 @@ font-style: normal;
     width: 25%;
     top: -13%;
     left: 61%;
+  }
+
+  .footerText {
+    padding-left: 17%;
+    padding-right: 10%;
   }
 }
