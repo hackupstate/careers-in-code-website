@@ -309,26 +309,23 @@ font-style: normal;
  }
 
  .footerLogo {
-   padding-top: 7%;
    padding-left: 7%;
  }
 
  .twitFace {
-  margin-top: 50%;
+  margin-left: 25%;
+  display: inline;
  }
 
  .footLogo {
   height: auto;
-  width: 50%;
-  position: absolute;
-  top: 3%;
-  right: 36%;
+  width: 70%;
  }
  
  .termsPolicy {
-  line-height: 0px;
   font-size: x-small;
-  margin-top: 10%;
+  color: #8d959a;
+  left: 3%;
  }
 
  /* student stuff */
@@ -340,7 +337,6 @@ font-style: normal;
 
  .middleGreyImage {
   background-image: url(./assets/light-hero-1.jpg);
-  height: 32rem;
   background-size: cover;
   background-position: center;
  }
@@ -386,6 +382,7 @@ font-style: normal;
   height: 32rem;
   margin-right: 0;
   margin-left: auto;
+  margin-top: 5%;
  }
 
  .studentThirdRowPadding {
@@ -395,7 +392,7 @@ font-style: normal;
  .muchConcentrate {
   left: 15%;
   width: 50%;
-  top: 10%;
+  top: 15%;
  }
 
  .studentGreenLines {
@@ -406,14 +403,16 @@ font-style: normal;
 
  .studentChat {
   width: 5%;
-  top: -5%;
+  top: 5%;
   right: 27%;
+  position: absolute;
  }
 
  .studentBlueButton {
    background-color: #2299dd;
    color: white;
    border-radius: 0;
+   margin-top: 5%;
  }
 
  .studentSecondMiddleText {
@@ -429,6 +428,7 @@ font-style: normal;
 .studentStats {
   width: 50%;
   margin-top: 5%;
+  margin-bottom: 5%;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -464,4 +464,30 @@ font-style: normal;
   height: 6%;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.extraFooter {
+  background-color: #002333;
+}
+
+.noBullets {
+  list-style: none;
+}
+
+.inline {
+  display: inline
+}
+
+.navbar-toggler-icon {
+  color: #002333;
+}
+
+.thing {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .studentBlueSquare {
+      height: 25%;
+  }
 }
