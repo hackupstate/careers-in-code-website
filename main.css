@@ -310,6 +310,10 @@ font-style: normal;
   width: auto;
  }
 
+ .sadGirlRow {
+  height: 360px;
+}
+
  .rightNonePadding {
   padding-right: 0px;
  }
@@ -329,17 +333,18 @@ font-style: normal;
 
  .studentGreenSquare {
   background-color: #33ff99;
-  width: 60%;
-  height: 72%;
+  width: 53%;
+  height: 380px;
   position: absolute;
-  top: 10%;
-  left: 20%;
- }
+  top: 6%;
+  left: 37%
+}
 
  .studentSadGirl {
   top: 28%;
   right: 10%;
   width: 50%;
+  position: absolute;
  }
 
  .code_ {
@@ -370,7 +375,7 @@ font-style: normal;
 
  .studentThirdRowPadding {
   margin-top: 4%;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
  }
 
  .muchConcentrate {
@@ -396,6 +401,10 @@ font-style: normal;
    padding-top: 10%;
  }
 
+ .studentNavMargin {
+   margin-top: 30px;
+ }
+
  .studentBlueButton {
    background-color: #2299dd;
    color: white;
@@ -410,7 +419,6 @@ font-style: normal;
 
  .studentTail {
   background-color: #002333;
-  margin-top: 10%;
 }
 
 .studentStats {

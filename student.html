@@ -7,7 +7,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+
+  <!-- Our CSS -->
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="mobile.css">
 
   <link rel="stylesheet" href="https://use.typekit.net/ipq7dgw.css">
 
@@ -15,34 +18,35 @@
 </head>
 
 <body class='container-fluid'>
-  <nav class="navbar navbar-expand-lg" role="navigation">
-    <div class="navbar-header inline">
-      <img class="logo" src="./assets/logo-white.png">
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-      aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">Menu</span>
-    </button>
-    <ul class="navbar-right navbar-collapse collapse" id="navbarToggleExternalContent">
-      <li class="nav-item">
-        <a class="nav-link studentNavLink" href="#">Students</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link studentNavLink" href="#">Instructors</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link studentNavLink" href="#">Partners</a>
-      </li>
-      <li>
-        <button type="button" class="btn enroll darkerGreen">Explore the Program</button>
-      </li>
-    </ul>
-  </nav>
+    <nav class="navbar studentNavMargin navbar-expand-lg navbar-light">
+        <img class="logo" src="./assets/logo-white.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-1 pt-lg-3">
+            <li class="nav-item">
+              <a class="nav-link studentNavLink" href="./student.html">Students</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link studentNavLink" href="#">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link studentNavLink" href="#">Partners</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn enroll darkerGreen">Enroll Today</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
   <div class="row sadGirlRow">
     <div class="col-md-6 col-12">
-      <div class="studentGreenSquare"></div>
-      <img class="studentBlueLines position-absolute" src="./assets/code-1.png">
-      <img class="position-absolute studentSadGirl" src="./assets/inset-3.jpg" alt="Responsive image">
+      <div class="studentGreenSquare d-none d-md-block d-lg-block"></div>
+      <img class="studentBlueLines d-none d-md-block d-lg-block" src="./assets/code-1.png">
+      <img class="studentSadGirl" src="./assets/inset-3.jpg" alt="Responsive image">
     </div>
     <div class="col-md-6 col-12">
       <div class="studentMiddleText">
