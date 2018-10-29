@@ -142,6 +142,7 @@ font-style: normal;
   top: 43%;
   /* right: 0%; */
   width: 50%;
+  position: absolute;
 }
 
 .middleText {
@@ -172,12 +173,14 @@ font-style: normal;
   width: 36%;
   top: 100%;
   left: 44%;
+  position: absolute;
 }
 
 .busyPeople {
-  left: 18%;
+  left: 0;
   width: 40%;
   top: -15%;
+  position: absolute;
 }
 
 .greenLines {
@@ -515,6 +518,12 @@ font-style: normal;
     width: 65%;
   }
 
+  .busyPeople {
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+  }
+
   .studentSadGirl {
     top: 60%;
     right: 10%;
@@ -570,6 +579,17 @@ font-style: normal;
     display: block;
     padding-left: 0px;
     padding-right: 0px;
+   }
+
+   .sadGirl {
+     width: 100%;
+     display: block;
+     margin-top: 25px;
+     position: initial;
+   }
+
+   .zeroPadding {
+     padding-left: 15px;
    }
 
 }
