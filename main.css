@@ -316,6 +316,7 @@ font-style: normal;
 
  .rightNonePadding {
   padding-right: 0px;
+  padding-left: 0px;
  }
 
  .middleGreyImage {
@@ -375,19 +376,21 @@ font-style: normal;
 
  .studentThirdRowPadding {
   margin-top: 4%;
-  margin-bottom: 20%;
  }
 
  .muchConcentrate {
   left: 15%;
   width: 50%;
   top: 15%;
+  position: absolute;
  }
 
  .studentGreenLines {
+  left: 16%;
   width: 26%;
-  top: 43%;
-  right: 66%;
+  top: -191px;
+  position: relative;
+  z-index: 0;
  }
 
  .studentChat {

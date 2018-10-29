@@ -5,6 +5,11 @@
       height: 25%;
   }
 
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .studentGreenSquare {
     background-color: #33ff99;
     width: 53%;
@@ -51,7 +56,13 @@
 }
 
   .muchConcentrate {
-    width: 65%;
+    width: 100%;
+    height: auto;
+    position: inherit;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 65px;
+    left: 0px;
   }
 
   .busyPeople {
