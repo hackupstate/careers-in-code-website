@@ -1,6 +1,15 @@
 /* For mobile */
 
 @media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
   .studentBlueSquare {
       height: 25%;
   }
@@ -8,6 +17,14 @@
   .row {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .jumboLead {
+    font: auto;
+  }
+
+  .jumboTextPadding {
+    padding-left: 0px;
   }
 
   .studentGreenSquare {
@@ -83,6 +100,7 @@
   }
 
   .padBottom {
+    margin-top: 15px;
     margin-bottom: 10%;
   }
 
@@ -116,8 +134,8 @@
   }
 
   .bottomLeftLines {
-    height: 25%;
-    left: 50%;
+    height: 31%;
+    left: 68%;
 
   }
 
