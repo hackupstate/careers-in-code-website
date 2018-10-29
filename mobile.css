@@ -1,0 +1,118 @@
+/* For mobile */
+
+@media only screen and (max-width: 600px) {
+  .studentBlueSquare {
+      height: 25%;
+  }
+
+  .studentGreenSquare {
+    background-color: #33ff99;
+    width: 53%;
+    height: 11rem;
+    position: absolute;
+    top: 6%;
+    left: 37%
+  }
+
+  .mobileButtons {
+    display: inline-flex;
+  }
+
+  .studentBlueLines {
+    height: 90%;
+    width: auto;
+    top: -32%;
+    left: 70%;
+  }
+
+  .studentMiddleText {
+    margin-top: 30%;
+    padding-top: 15%;
+  }
+  .middleText {
+    margin-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+  .muchConcentrate {
+    width: 65%;
+  }
+
+  .busyPeople {
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+    left: 0;
+  }
+
+  .studentSadGirl {
+    top: 60%;
+    right: 10%;
+    width: 70%;
+  }
+
+  .studenGreenSquare {
+    width: 61%;
+    top: -15%;
+    left: 37%;
+  }
+
+  .padBottom {
+    margin-bottom: 10%;
+  }
+
+  .studentBlueLines {
+    height: auto;
+    width: 25%;
+    top: -13%;
+    left: 61%;
+  }
+
+  .footerText {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .twitFace {
+    text-align: center;
+  }
+
+  .studentTail {
+    text-align: center;
+  }
+
+  .bottomRightLines {
+    left: 67%;
+    height: 20%
+  }
+
+  .logo {
+    height: 21px;
+  }
+
+  .bottomLeftLines {
+    height: 25%;
+    left: 50%;
+
+  }
+
+  .tryDisplays {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+
+   .sadGirl {
+     width: 100%;
+     display: block;
+     margin-top: 25px;
+     position: initial;
+   }
+
+   .zeroPadding {
+     padding-left: 15px;
+   }
+
+}
