@@ -21,13 +21,16 @@ font-style: normal;
   margin-top: 3%;
 }
 
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .jumbotron {
   padding: 1rem 2rem;
+}
+
+.jumboStuff {
+  width : 100%;
+}
+
+.links {
+  display: inline-flex;
 }
 
 .logo {
@@ -53,11 +56,6 @@ font-style: normal;
   width: auto;
   border-radius: 0px;
   color: #2299dd;
-  font-weight: bolder;
-}
-
-.jumbotronContentWrapper {
-  margin-top: 0;
 }
 
 .enroll {
@@ -108,45 +106,29 @@ font-style: normal;
 
 .studyGirl {
   background-image: url(./assets/hero-8-wide.jpg);
-  height: 700px;
   background-size: cover;
   background-position: center;
-
-}
-
-.sadGirlRow {
-  height: 100%;
-}
-
-.middle { 
-  height: 400px; 
+  padding-bottom: 4%;
 }
 
 .bottom {
-  height: 400px;
-  padding-bottom: 30px;
-  margin-bottom: 4%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.mainQuote {
-  width: 70%;
-  padding-top: 5px;
-  /* position: relative; */
+  height: auto;
 }
 
 .quoter {
   padding-top: 10px;
 }
+.footerButtonPad {
+  margin-top: 5%;
+}
 
 .greenSquare {
   background-color: #33ff99;
   width: 67%;
-  height: 36rem;
-  position: absolute;
+  height: 100%;
   top: 10%;
-  left: 8%;
+  margin-top: 10%;
+  margin-left: 8%;
 }
 
 .grey {
@@ -160,14 +142,12 @@ font-style: normal;
   top: 43%;
   /* right: 0%; */
   width: 50%;
-  padding-bottom: 300px;
-  margin-bottom: 300px;
 }
 
 .middleText {
-  margin-top: 20%;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .secondMiddleText {
@@ -189,27 +169,22 @@ font-style: normal;
 }
 
 .blueLines {
-    width: 36%;
-    /* bottom: -21%; */
-    top: 100%;
-    /* height: 18rem; */
-    left: 44%;
-}
-
-.thirdRowPadding {
-  margin-top: 20%;
+  width: 36%;
+  top: 100%;
+  left: 44%;
 }
 
 .busyPeople {
-  left: 32%;
-  width: 311px;
-  top: -12%;
+  left: 18%;
+  width: 40%;
+  top: -15%;
 }
 
 .greenLines {
-  height: 413px;
-  top: 46%;
+  height: 60%;
+  top: 56%;
   right: 20%;
+  position: absolute;
 }
 
 .chat {
@@ -219,34 +194,35 @@ font-style: normal;
   top: -7%;
 }
 
-.thirdRowParagraph {
-  padding-right: 15%;
-}
-
 .blueSquare {
   background-color: #2299dd;
   width: 75%;
   height: 32rem;
 }
 
+.marginBottom {
+  margin-bottom: 15%;
+}
+
 .greenQuotation {
-  height: 10%;
+  height: 3rem;
   width: auto;
+  margin-right: 5%;
 }
 
 .bottomBlueSquare {
   background-color: #2299dd;
-  height: 40rem;
+  height: fit-content;
   width: 50%;
 }
 
 .bottomMiddle {
-  height: 30rem;
   margin-top: 12%;
+  margin-bottom: 10%;
 }
 
 .bottom {
-  height: 400px;
+  height: auto;
   padding-bottom: 30px;
   margin-bottom: 4%;
 }
@@ -267,9 +243,10 @@ font-style: normal;
 
 .bottomBlueText {
   color: white;
-  padding-left: 10%;
-  padding-top: 15%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 6%;
 }
 
 .darkerGreen {
@@ -277,9 +254,7 @@ font-style: normal;
 }
 
  .bottomTeachersText {
-  padding-left: 10%;
-  padding-top: 15%;
-  padding-right: 10%;
+   color: black;
  }
 
  .greenRead {
@@ -308,15 +283,6 @@ font-style: normal;
    list-style-type: none;
  }
 
- .footerLogo {
-   padding-left: 7%;
- }
-
- .twitFace {
-  margin-left: 25%;
-  display: inline;
- }
-
  .footLogo {
   height: auto;
   width: 70%;
@@ -325,7 +291,12 @@ font-style: normal;
  .termsPolicy {
   font-size: x-small;
   color: #8d959a;
-  left: 3%;
+ }
+
+ .tryDisplays {
+  display: inline-flex;
+  padding-left: 10%;
+  padding-right: 10%;
  }
 
  /* student stuff */
@@ -351,7 +322,7 @@ font-style: normal;
  .studentGreenSquare {
   background-color: #33ff99;
   width: 60%;
-  height: 36rem;
+  height: 72%;
   position: absolute;
   top: 10%;
   left: 20%;
@@ -365,6 +336,10 @@ font-style: normal;
 
  .code_ {
    color: #002333;
+ }
+
+ .zeroPadding {
+   padding-left: 0px;
  }
 
  .getStartedGreen {
@@ -387,6 +362,7 @@ font-style: normal;
 
  .studentThirdRowPadding {
   margin-top: 4%;
+  margin-bottom: 25%;
  }
 
  .muchConcentrate {
@@ -406,6 +382,10 @@ font-style: normal;
   top: 5%;
   right: 27%;
   position: absolute;
+ }
+
+ .studentMargin {
+   padding-top: 10%;
  }
 
  .studentBlueButton {
@@ -456,6 +436,12 @@ font-style: normal;
   margin-right: 20px;
 }
 
+.studentFooterLinks {
+    color: #8d959a;
+    font-size: 17px;
+    padding-top: 7%;
+}
+
 .nav {
   margin-top: 1%;
   margin-left: 5%;
@@ -471,10 +457,6 @@ font-style: normal;
   padding-bottom: 2%;
 }
 
-.noBullets {
-  list-style: none;
-}
-
 .inline {
   display: inline
 }
@@ -485,6 +467,10 @@ font-style: normal;
 
 .thing {
   display: block;
+}
+
+.list-group-item-action {
+  margin-bottom: 4%;
 }
 
 /* For mobile */
@@ -507,10 +493,6 @@ font-style: normal;
     display: inline-flex;
   }
 
-  .sadGirlRow {
-    height: 50%;
-  }
-
   .studentBlueLines {
     height: 90%;
     width: auto;
@@ -518,13 +500,19 @@ font-style: normal;
     left: 70%;
   }
 
-  .middleText {
+  .studentMiddleText {
     margin-top: 30%;
     padding-top: 15%;
   }
+  .middleText {
+    margin-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
 
   .muchConcentrate {
-    width: 70%;
+    width: 65%;
   }
 
   .studentSadGirl {
@@ -539,6 +527,10 @@ font-style: normal;
     left: 37%;
   }
 
+  .padBottom {
+    margin-bottom: 10%;
+  }
+
   .studentBlueLines {
     height: auto;
     width: 25%;
@@ -547,7 +539,37 @@ font-style: normal;
   }
 
   .footerText {
-    padding-left: 17%;
+    padding-left: 10%;
     padding-right: 10%;
   }
+
+  .twitFace {
+    text-align: center;
+  }
+
+  .studentTail {
+    text-align: center;
+  }
+
+  .bottomRightLines {
+    left: 67%;
+    height: 20%
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .bottomLeftLines {
+    height: 25%;
+    left: 50%;
+
+  }
+
+  .tryDisplays {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+
 }
