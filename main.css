@@ -311,7 +311,8 @@ font-style: normal;
  }
 
  .sadGirlRow {
-  height: 360px;
+  height: auto;
+  margin-top: 15px;
 }
 
  .rightNonePadding {
