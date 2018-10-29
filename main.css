@@ -309,6 +309,10 @@ font-style: normal;
   width: auto;
  }
 
+ .rightNonePadding {
+  padding-right: 0px;
+ }
+
  .middleGreyImage {
   background-image: url(./assets/light-hero-1.jpg);
   background-size: cover;
