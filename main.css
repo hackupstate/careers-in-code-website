@@ -328,7 +328,9 @@ font-style: normal;
 
  .sadGirlRow {
   height: auto;
-  margin-top: 15px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
  .rightNonePadding {
@@ -367,6 +369,7 @@ font-style: normal;
 
  .code_ {
    color: #002333;
+   font-size: 50px;
  }
 
  .zeroPadding {
@@ -392,7 +395,8 @@ font-style: normal;
  }
 
  .studentThirdRowPadding {
-  margin-top: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
  }
 
  .muchConcentrate {
@@ -422,7 +426,9 @@ font-style: normal;
  }
 
  .studentNavMargin {
-   margin-top: 30px;
+  margin-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
  }
 
  .studentBlueButton {
@@ -433,8 +439,9 @@ font-style: normal;
  }
 
  .studentSecondMiddleText {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-left: 20%;
+  padding-right: 10%;
  }
 
  .studentTail {
@@ -445,20 +452,23 @@ font-style: normal;
   width: 50%;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .blueStats {
   color: #002333;
+  font-size: xx-large;
 }
 
 .midBlue {
   color: #2299dd;
+  font-size: x-large;
 }
 
 .midGreen {
   color: #2de187;
+  font-size: x-large;
 }
 
 .studentNavLink {
