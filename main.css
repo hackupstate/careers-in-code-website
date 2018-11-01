@@ -4,6 +4,11 @@
   font-style: normal;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .proximaNovaBlack {
 font-family: proxima-nova, sans-serif;
 font-weight: 900;
@@ -153,7 +158,7 @@ font-style: normal;
 }
 
 .secondMiddleText {
-  padding-top: 15%;
+  padding-top: 13%;
   padding-right: 10%;
 }
 
@@ -175,6 +180,10 @@ font-style: normal;
   top: 100%;
   left: 44%;
   position: absolute;
+}
+
+.padBottom {
+  padding-right: 10%;
 }
 
 .busyPeople {
@@ -204,8 +213,9 @@ font-style: normal;
   height: 32rem;
 }
 
-.marginBottom {
+.marginTopBottom {
   margin-bottom: 15%;
+  margin-top: 5%;
 }
 
 .greenQuotation {
