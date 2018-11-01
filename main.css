@@ -158,7 +158,9 @@ font-style: normal;
 }
 
 .secondMiddleText {
-  padding-top: 13%;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 9%;
   padding-right: 10%;
 }
 
@@ -269,6 +271,10 @@ font-style: normal;
 
  .bottomTeachersText {
    color: black;
+ }
+
+ .bottomSquaresText {
+   font-size: 24px;
  }
 
  .greenRead {

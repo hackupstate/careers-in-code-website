@@ -21,6 +21,10 @@
     text-align: center;
   }
 
+  .jumboNoTopMargin {
+    margin-top: 0px;
+  }
+
   .screenQuote {
     padding-left: 0;
     padding-right: 0;
@@ -74,15 +78,21 @@
     text-align: center;
 }
 
-  .studentMiddleText {
-    margin-top: 15%;
-    padding-top: 15%;
-  }
-  .middleText {
-    margin-top: 20%;
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
+.jumboButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.studentMiddleText {
+  margin-top: 15%;
+  padding-top: 15%;
+}
+  
+.middleText {
+  margin-top: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
 }
 
   .muchConcentrate {
@@ -93,6 +103,10 @@
     margin-top: 15px;
     margin-bottom: 65px;
     left: 0px;
+  }
+
+  .bottomSquaresText {
+    font-size: 1rem;
   }
 
   .busyPeople {
