@@ -300,6 +300,11 @@ font-style: normal;
    margin-bottom: 8%;
  }
 
+ .pads {
+  padding-left: 60px;
+  padding-right: 37px;
+}
+
  .footerLinks {
    color: white;
    list-style-type: none;
