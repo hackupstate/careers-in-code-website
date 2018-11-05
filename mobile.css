@@ -113,6 +113,10 @@
   text-align: center;
 }
 
+.changeWidth {
+  padding-left: 0px;
+}
+
   .muchConcentrate {
     width: 100%;
     height: auto;
@@ -167,6 +171,10 @@
   .footerText {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .padRight {
+    padding-right: 15px;
   }
 
   .twitFace {
