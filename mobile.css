@@ -14,6 +14,20 @@
       height: 25%;
   }
 
+  .noPads {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .studyGirl {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .centerAlign {
+    text-align: center;
+  }
+
   .screen {
     margin-top: 20%;
     padding-left: 0;
@@ -169,7 +183,7 @@
   }
 
   .logo {
-    height: 21px;
+    height: 28px;
   }
 
   .bottomLeftLines {

@@ -61,6 +61,8 @@ font-style: normal;
 
 .changeWidth{
   width: 100%;
+  margin-top: 11px;
+  padding-left: 11px;
 }
 
 .enroll {
@@ -442,6 +444,7 @@ font-style: normal;
   padding-top: 10%;
   padding-left: 20%;
   padding-right: 10%;
+  padding-bottom: 20px;
  }
 
  .studentTail {
