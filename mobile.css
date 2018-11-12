@@ -10,9 +10,9 @@
     font-size: 1rem;
   }
 
-  .studentBlueSquare {
+  /* .studentBlueSquare {
       height: 25%;
-  }
+  } */
 
   .noPads {
     padding-left: 0px;
@@ -58,17 +58,18 @@
     padding-left: 0px;
   }
 
-  .studentGreenSquare {
+  /* .studentGreenSquare {
     background-color: #33ff99;
     width: 53%;
     height: 380px;
     position: absolute;
     top: 6%;
     left: 37%
-  }
+  } */
 
   .mobileButtons {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
   }
 
   .studentBlueLines {
@@ -78,17 +79,18 @@
     margin-left: 12%;
     position: relative;
   }
-
+/* 
   .studentSadGirl {
     top: 40px;
     position: relative;
     width: 100%;
     display: block;
     right: auto;
-  }
+  } */
   .studentSecondMiddleText {
     padding-top: 15%;
     padding-left: 0px;
+    padding-right: 0px;
     text-align: center;
 }
 
@@ -117,7 +119,7 @@
     padding-left: 0px;
   }
 
-  .muchConcentrate {
+  /* .muchConcentrate {
     width: 100%;
     height: auto;
     position: inherit;
@@ -125,7 +127,7 @@
     margin-top: 15px;
     margin-bottom: 65px;
     left: 0px;
-  }
+  } */
 
   .bottomSquaresText {
     font-size: 1rem;
@@ -191,7 +193,7 @@
   }
 
   .logo {
-    height: 28px;
+    height: 34px;
   }
 
   .bottomLeftLines {

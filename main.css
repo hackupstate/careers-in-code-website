@@ -21,10 +21,10 @@
   font-style: normal;
 }
 
-.careersCode {
+/* .careersCode {
   font-size: 30px;
   margin-top: 3%;
-}
+} */
 
 .jumbotron {
   padding: 1rem 2rem;
@@ -78,9 +78,9 @@
   width: 100%;
 }
 
-.navbarDark {
+/* .navbarDark {
   color: #8d959a;
-}
+} */
 
 #jumbotext {
   color: white;
@@ -104,9 +104,9 @@
   align-items: center;
 }
 
-#jumboLead {
+/* #jumboLead {
   padding-bottom: 10px;
-}
+} */
 
 .nav-link {
   color: white;
@@ -119,9 +119,9 @@
   padding-bottom: 4%;
 }
 
-.bottom {
+/* .bottom {
   height: auto;
-}
+} */
 
 .quoter {
   padding-top: 10px;
@@ -130,14 +130,14 @@
   margin-top: 5%;
 }
 
-.greenSquare {
+/* .greenSquare {
   background-color: #33ff99;
   width: 67%;
   height: 100%;
   top: 10%;
   margin-top: 10%;
   margin-left: 8%;
-}
+} */
 
 .grey {
   color: #8d959a;
@@ -146,12 +146,12 @@
   margin-bottom: 4%;
 }
 
-.sadGirl {
+/* .sadGirl {
   top: 43%;
-  /* right: 0%; */
+  right: 0%; 
   width: 50%;
   position: absolute;
-}
+} */
 
 .middleText {
   margin-top: 5%;
@@ -166,56 +166,43 @@
   padding-right: 10%;
 }
 
-.arrow {
-  height: 10px;
-}
-
-.blueRead {
-  color: #2299dd;
-}
-
-.secondBlueArrow {
-  position: absolute;
-  padding-left: 21%;
-}
-
-.blueLines {
+/* .blueLines {
   width: 36%;
   top: 100%;
   left: 44%;
   position: absolute;
-}
+} */
 
 .padBottom {
   padding-right: 10%;
 }
 
-.busyPeople {
+/* .busyPeople {
   left: 20%;
   width: 40%;
   top: -15%;
   position: absolute;
-}
+} */
 
-.greenLines {
+/* .greenLines {
   height: 60%;
   top: 56%;
   right: 20%;
   position: absolute;
-}
+} */
 
-.chat {
+/* .chat {
   height: 70px;
   width: auto;
   right: 25%;
   top: -7%;
-}
+} */
 
-.blueSquare {
+/* .blueSquare {
   background-color: #2299dd;
   width: 75%;
   height: 32rem;
-}
+} */
 
 .marginTopBottom {
   margin-bottom: 15%;
@@ -279,14 +266,14 @@
    font-size: 24px;
  }
 
- .greenRead {
+ /* .greenRead {
   color: #33ff99;
- }
+ } */
 
- .tail {
+ /* .tail {
   background-color: #002333;
   margin-top: 25%
- }
+ } */
 
  .footerText {
   color: #8d959a;
@@ -305,10 +292,10 @@
   padding-right: 37px;
 }
 
- .footerLinks {
+ /* .footerLinks {
    color: white;
    list-style-type: none;
- }
+ } */
 
  .footerLink {
   color: #8d959a;
@@ -336,10 +323,10 @@
 
  /* student stuff */
 
- .studentNavLogo {
+ /* .studentNavLogo {
   height: 45px;
   width: auto;
- }
+ } */
 
  .sadGirlRow {
   height: auto;
@@ -359,28 +346,28 @@
   background-position: center;
  }
 
- .studentBlueLines {
+ /* .studentBlueLines {
   height: 40%;
   width: auto;
   top: 15%;
   left: 10%;
- }
+ } */
 
- .studentGreenSquare {
+ /* .studentGreenSquare {
   background-color: #33ff99;
   width: 53%;
   height: 380px;
   position: absolute;
   top: 6%;
   left: 37%
-}
+} */
 
- .studentSadGirl {
+ /* .studentSadGirl {
   top: 28%;
   right: 10%;
   width: 50%;
   position: absolute;
- }
+ } */
 
  .code_ {
    color: #002333;
@@ -400,41 +387,41 @@
   margin-left: 5px;
  }
 
- .studentBlueSquare {
+ /* .studentBlueSquare {
   background-color: #2299dd;
   width: 75%;
   height: 32rem;
   margin-right: 0;
   margin-left: auto;
   margin-top: 5%;
- }
+ } */
 
  .studentThirdRowPadding {
   margin-top: 5%;
   margin-bottom: 5%;
  }
 
- .muchConcentrate {
+ /* .muchConcentrate {
   left: 15%;
   width: 50%;
   top: 15%;
   position: absolute;
- }
+ } */
 
- .studentGreenLines {
+ /* .studentGreenLines {
   left: 16%;
   width: 26%;
   top: -191px;
   position: relative;
   z-index: 0;
- }
+ } */
 
- .studentChat {
+ /* .studentChat {
   width: 5%;
   top: 5%;
   right: 27%;
   position: absolute;
- }
+ } */
 
  .studentMargin {
    padding-top: 6%;
@@ -491,12 +478,12 @@
   color: #8d959a;
 }
 
-.vl {
+/* .vl {
   border-left: 1px solid #002333;
   height: 3rem;
   margin-left: 20px;
   margin-right: 20px;
-}
+} */
 
 .studentFooterLinks {
     color: #8d959a;
@@ -518,17 +505,17 @@
   padding-bottom: 2%;
 }
 
-.inline {
+/* .inline {
   display: inline
-}
+} */
 
 .navbar-toggler-icon {
   color: #002333;
 }
 
-.thing {
+/* .thing {
   display: block;
-}
+} */
 
 .list-group-item-action {
   margin-bottom: 4%;
