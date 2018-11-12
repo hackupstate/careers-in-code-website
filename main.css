@@ -310,6 +310,14 @@ font-style: normal;
    list-style-type: none;
  }
 
+ .footerLink {
+  color: #8d959a;
+ }
+
+ .footerLink:hover {
+   background-color: transparent;
+ }
+
  .footLogo {
   height: auto;
   width: 70%;
