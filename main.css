@@ -10,9 +10,9 @@
 }
 
 .proximaNovaBlack {
-font-family: proxima-nova, sans-serif;
-font-weight: 900;
-font-style: normal;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .proximaNovaThin {
@@ -508,7 +508,6 @@ font-style: normal;
   margin-top: 1%;
   margin-left: 5%;
   margin-right: 5%;
-  /* border-left: 1px solid #002333; */
   height: 6%;
   margin-left: 20px;
   margin-right: 20px;

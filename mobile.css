@@ -92,30 +92,30 @@
     text-align: center;
 }
 
-.jumboButtons {
-  display: flex;
-  justify-content: center;
-}
+  .jumboButtons {
+    display: flex;
+    justify-content: center;
+  }
 
-.studentMiddleText {
-  padding-top: 15%;
-}
+  .studentMiddleText {
+    padding-top: 15%;
+  }
 
-.rightNonePadding {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-  
-.middleText {
-  margin-top: 20%;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-align: center;
-}
+  .rightNonePadding {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+    
+  .middleText {
+    margin-top: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
 
-.changeWidth {
-  padding-left: 0px;
-}
+  .changeWidth {
+    padding-left: 0px;
+  }
 
   .muchConcentrate {
     width: 100%;
@@ -197,7 +197,6 @@
   .bottomLeftLines {
     height: 31%;
     left: 68%;
-
   }
 
   .tryDisplays {
@@ -208,14 +207,14 @@
    }
 
    .sadGirl {
-     width: 100%;
-     display: block;
-     margin-top: 25px;
-     position: initial;
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+    position: initial;
    }
 
-   .zeroPadding {
-     padding-left: 15px;
-   }
+  .zeroPadding {
+    padding-left: 15px;
+  }
 
 }
