@@ -36,7 +36,6 @@
 
 .getStarted {
   background-color: transparent;
-  height: 45px;
   width: auto;
   border-radius: 0px;
   border: white;
@@ -48,10 +47,10 @@
 
 .explore {
   background-color: white;
-  height: 45px;
   width: auto;
   border-radius: 0px;
   color: #2299dd;
+  margin-right: 5%;
 }
 
 .changeWidth{
@@ -62,7 +61,6 @@
 
 .enroll {
   background-color: #33ff99;
-  height: 45px;
   width: auto;
   border-radius: 0px;
   color: white;
