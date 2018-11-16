@@ -97,8 +97,29 @@
   color: white;
 }
 
-.studyGirl {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/hero-8-wide.jpg);
+.index-banner {
+  background: linear-gradient(rgba(0, 102, 170, 0.6), rgba(0, 102, 170, 0.6)), url(./assets/banners/hu-x-banner.JPG);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 4%;
+}
+
+.student-banner {
+  background: linear-gradient(rgba(0, 102, 170, 0.6), rgba(0, 102, 170, 0.6)), url(./assets/banners/index.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 4%;
+}
+
+.instructor-banner {
+  background: linear-gradient(rgba(0, 102, 170, 0.6), rgba(0, 102, 170, 0.6)), url(./assets/banners/instructor.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 4%;
+}
+
+.partner-banner {
+  background: linear-gradient(rgba(0, 102, 170, 0.6), rgba(0, 102, 170, 0.6)), url(./assets/banners/student.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 4%;
