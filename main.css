@@ -1,4 +1,4 @@
- body {
+body {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -159,6 +159,13 @@
   margin-top: 5%;
 }
 
+.whiteSectionSyllabus {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  font-size: 21px;
+}
+
 .greenQuotation {
   height: 3rem;
   width: auto;
@@ -266,9 +273,51 @@
   margin-right: 5%;
 }
 
+.learn {
+  text-align: left
+}
  .rightNonePadding {
   padding-right: 0px;
   padding-left: 0px;
+ }
+
+ .moduleZero {
+   margin-top: 5%;
+ }
+
+ .syllabus {
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 5%;
+ }
+
+ .greenSyllabus {
+  background-color: #2de187;
+  color: white;
+  height: 500px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+ }
+
+ .syllabusList {
+   font-size: 21px;
+ }
+
+ .blueSyllabus {
+  background-color: #2299dd;
+  color: white;
+  height: 500px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  font-size: 21px;
+ }
+
+ .keyObjective {
+  font-size: 30px;
+  text-align: center;
+  color: #002333;
  }
 
  .middleGreyImage {

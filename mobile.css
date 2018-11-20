@@ -104,6 +104,11 @@
     font-size: 1rem;
   }
 
+  .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
   .busyPeople {
     position: relative;
     width: 100%;
