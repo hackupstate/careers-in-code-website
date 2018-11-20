@@ -281,6 +281,11 @@ body {
   padding-left: 0px;
  }
 
+ .team {
+  padding-left: 35px;
+  padding-right: 35px;
+ }
+
  .moduleZero {
    margin-top: 5%;
  }
