@@ -285,6 +285,13 @@ body {
    margin-top: 5%;
  }
 
+ .faqTitle {
+   font-size: 80px;
+ }
+ .faqTitleWrapper {
+   margin-bottom: 5%;
+ }
+
  .syllabus {
    margin-left: 15%;
    margin-right: 15%;
@@ -302,6 +309,11 @@ body {
 
  .syllabusList {
    font-size: 21px;
+ }
+
+ .faqScroll {
+  height: 600px;
+  overflow-y: scroll;
  }
 
  .blueSyllabus {
