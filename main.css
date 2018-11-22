@@ -25,6 +25,11 @@ body {
   padding: 1rem 2rem;
 }
 
+.studentScroll {
+  height: 800px;
+  overflow-y: scroll;
+}
+
 .jumboStuff {
   width : 100%;
 }
@@ -176,6 +181,19 @@ body {
   background-color: #2299dd;
   height: fit-content;
   width: 50%;
+}
+
+.list-group-item.active {
+  background-color: #2299dd;
+  border-color: #2299dd;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.moduleTitle {
+  color: #2299dd;
 }
 
 .bottomMiddle {
