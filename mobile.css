@@ -25,6 +25,10 @@
     text-align: center;
   }
 
+  .faqTitle {
+    font-size: xx-large;
+  }
+
   .screen {
     margin-top: 20%;
     padding-left: 0;
