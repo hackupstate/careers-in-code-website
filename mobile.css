@@ -75,11 +75,6 @@
     text-align: center;
 }
 
-  .jumboButtons {
-    display: flex;
-    justify-content: center;
-  }
-
   .studentMiddleText {
     padding-top: 15%;
   }

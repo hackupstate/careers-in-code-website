@@ -290,6 +290,11 @@ body {
    margin-top: 5%;
  }
 
+ .displayFlex {
+   display: flex;
+   justify-content: center;
+ }
+
  .faqTitle {
    font-size: 80px;
  }
