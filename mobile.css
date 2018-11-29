@@ -25,6 +25,10 @@
     text-align: center;
   }
 
+  .faqTitle {
+    font-size: xx-large;
+  }
+
   .screen {
     margin-top: 20%;
     padding-left: 0;
@@ -75,11 +79,6 @@
     text-align: center;
 }
 
-  .jumboButtons {
-    display: flex;
-    justify-content: center;
-  }
-
   .studentMiddleText {
     padding-top: 15%;
   }
@@ -103,6 +102,11 @@
   .bottomSquaresText {
     font-size: 1rem;
   }
+
+  .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
   .busyPeople {
     position: relative;

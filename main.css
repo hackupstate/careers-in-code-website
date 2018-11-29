@@ -1,4 +1,4 @@
- body {
+body {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -23,6 +23,11 @@
 
 .jumbotron {
   padding: 1rem 2rem;
+}
+
+.studentScroll {
+  height: 800px;
+  overflow-y: scroll;
 }
 
 .jumboStuff {
@@ -159,6 +164,13 @@
   margin-top: 5%;
 }
 
+.whiteSectionSyllabus {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  font-size: 21px;
+}
+
 .greenQuotation {
   height: 3rem;
   width: auto;
@@ -171,6 +183,19 @@
   width: 50%;
 }
 
+.list-group-item.active {
+  background-color: #2299dd;
+  border-color: #2299dd;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.moduleTitle {
+  color: #2299dd;
+}
+
 .bottomMiddle {
   margin-top: 12%;
   margin-bottom: 10%;
@@ -179,7 +204,7 @@
 .bottom {
   height: auto;
   padding-bottom: 30px;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 .bottomRightLines {
@@ -266,9 +291,73 @@
   margin-right: 5%;
 }
 
+.learn {
+  text-align: left
+}
  .rightNonePadding {
   padding-right: 0px;
   padding-left: 0px;
+ }
+
+ .team {
+  padding-left: 35px;
+  padding-right: 35px;
+ }
+
+ .moduleZero {
+   margin-top: 5%;
+ }
+
+ .displayFlex {
+   display: flex;
+   justify-content: center;
+ }
+
+ .faqTitle {
+   font-size: 80px;
+ }
+ .faqTitleWrapper {
+   margin-bottom: 5%;
+ }
+
+ .syllabus {
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 5%;
+ }
+
+ .greenSyllabus {
+  background-color: #2de187;
+  color: white;
+  height: 500px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+ }
+
+ .syllabusList {
+   font-size: 21px;
+ }
+
+ .faqScroll {
+  height: 600px;
+  overflow-y: scroll;
+ }
+
+ .blueSyllabus {
+  background-color: #2299dd;
+  color: white;
+  height: 500px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  font-size: 21px;
+ }
+
+ .keyObjective {
+  font-size: 30px;
+  text-align: center;
+  color: #002333;
  }
 
  .middleGreyImage {
