@@ -244,9 +244,9 @@ body {
  .footerText {
   color: #8d959a;
   font-size: 17px;
-  padding-left: 7%;
-  padding-right: 7%;
-  padding-top: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
  }
 
  .list-group-item-action {
