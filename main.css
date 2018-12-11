@@ -4,11 +4,6 @@ body {
   font-style: normal;
 }
 
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .proximaNovaBlack {
   font-family: proxima-nova, sans-serif;
   font-weight: 900;
