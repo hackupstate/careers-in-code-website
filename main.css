@@ -16,17 +16,17 @@ body {
   font-style: normal;
 }
 
-.jumbotron {
+.onJumbotron {
   padding: 1rem 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
 
 .studentScroll {
   height: 800px;
   overflow-y: scroll;
-}
-
-.jumboStuff {
-  width : 100%;
 }
 
 .logo {
@@ -50,10 +50,15 @@ body {
   width: auto;
   border-radius: 0px;
   color: #2299dd;
-  margin-right: 5%;
+  margin: 0 5px ;
 }
 
-.changeWidth{
+.centerThing {
+  display: flex;
+  justify-content: center;
+}
+
+.changeWidth {
   width: 100%;
   margin-top: 11px;
   padding-left: 11px;
@@ -74,7 +79,7 @@ body {
 #jumbotext {
   color: white;
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 35px;
 }
 
 .jumboLead {
@@ -84,7 +89,7 @@ body {
 }
 
 .jumbotextPadding {
-  padding-left: 10%;
+  text-align: center;
 }
 
 #navbarSupportedContent {
@@ -337,6 +342,10 @@ body {
  .faqScroll {
   height: 600px;
   overflow-y: scroll;
+ }
+
+ .screen {
+  text-align: center;
  }
 
  .blueSyllabus {

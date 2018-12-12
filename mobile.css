@@ -25,6 +25,19 @@
     text-align: center;
   }
 
+  .centerThing {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .explore {
+    margin: 5px;
+  }
+
+  .onJumbotron {
+    width: 100%;
+  }
+
   .faqTitle {
     font-size: xx-large;
   }
@@ -33,7 +46,6 @@
     margin-top: 20%;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
   }
 
   .jumboNoTopMargin {
