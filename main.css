@@ -1,3 +1,5 @@
+@import url("faq.css");
+
 body {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
@@ -451,15 +453,6 @@ body {
   color: #8d959a;
   font-size: 17px;
   padding-top: 7%;
-}
-
-.nav {
-  margin-top: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 6%;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .extraFooter {
