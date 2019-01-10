@@ -1,4 +1,5 @@
 @import url("faq.css");
+@import url("variables.css");
 
 body {
   font-family: proxima-nova, sans-serif;
@@ -51,7 +52,7 @@ body {
   background-color: white;
   width: auto;
   border-radius: 0px;
-  color: #2299dd;
+  color: var(--main-blue);
   margin: 0 5px ;
 }
 
@@ -180,14 +181,14 @@ body {
 }
 
 .bottomBlueSquare {
-  background-color: #2299dd;
+  background-color: var(--main-blue);
   height: fit-content;
   width: 50%;
 }
 
 .list-group-item.active {
-  background-color: #2299dd;
-  border-color: #2299dd;
+  background-color: var(--main-blue);
+  border-color: var(--main-blue);
 }
 
 .list-group-item {
@@ -195,7 +196,7 @@ body {
 }
 
 .moduleTitle {
-  color: #2299dd;
+  color: var(--main-blue);
 }
 
 .bottomMiddle {
@@ -351,7 +352,7 @@ body {
  }
 
  .blueSyllabus {
-  background-color: #2299dd;
+  background-color: var(--main-blue);
   color: white;
   height: 500px;
   padding-left: 4%;
@@ -406,7 +407,7 @@ body {
  }
 
  .studentBlueButton {
-   background-color: #2299dd;
+   background-color: var(--main-blue);
    color: white;
    border-radius: 0;
  }
@@ -436,7 +437,7 @@ body {
 }
 
 .midBlue {
-  color: #2299dd;
+  color: var(--main-blue);
   font-size: x-large;
 }
 
