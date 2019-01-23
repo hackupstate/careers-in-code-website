@@ -468,3 +468,10 @@ body {
 .list-group-item-action {
   margin-bottom: 4%;
 }
+
+.sponsor-photo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
