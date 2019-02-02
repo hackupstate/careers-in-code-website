@@ -1,0 +1,5 @@
+# Redirect student page
+/student  /students/apply
+
+# Redirect instructors page 
+/instructor /instructors/apply
