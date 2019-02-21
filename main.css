@@ -475,3 +475,40 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.marginLeftRight {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Small devices */
+@media (max-width: 576px) { 
+  .marginLeftRight {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Medium devices  */
+@media (max-width: 768px) { 
+  .marginLeftRight {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Large devices */
+@media (max-width: 992px) { 
+  .marginLeftRight {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Extra large devices */
+@media (max-width: 1200px) { 
+  .marginLeftRight {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
