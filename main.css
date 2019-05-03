@@ -306,6 +306,7 @@ body {
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 20px;
+  max-width: 300px;
  }
 
  .moduleZero {
