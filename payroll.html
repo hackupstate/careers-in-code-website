@@ -52,6 +52,15 @@
   <meta property="fb:admins" content="hackupstate">
   <meta property="og:type" content="website">
 
+  <script>
+    function enableStep2() {
+        document.getElementById("step2").disabled = false;
+    }
+    function enableStep3() {
+        document.getElementById("step3").disabled = false;
+    }
+</script>
+
   <title>Careers in Code - 24 week coding bootcamp for women and minorities from distressed communities</title>
 </head>
 
@@ -145,12 +154,14 @@
             </div>
             
             <div class="col-md-12 col-12">
-            <h3>STEPS</h3>               
-            <p>Read and understand this disclaimer:</p>   
-            <a href="https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#" target="_blank"><button
-                type="button" class="btn btn-lg enroll studentBlueButton">Step 2: Complete the ACH Form and Mail to Jesse</button></a><br><br>
-            <a href="https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#" target="_blank"><button
-                type="button" class="btn btn-lg enroll studentBlueButton">Step 3: Complete the hour tracking form</button></a>
+            <h3>STEPS</h3>   
+            <p>Complete the following in order. If you have any questions, feel free to reach out to Jesse!</p>            
+            <a href="https://docs.google.com/document/d/1jrPdGxRqkDvMPz0ZQut-dJ7RdxKXzLjg3e57A_sP5TY/edit?usp=sharing" target="_blank" ><button
+              type="button" id="step1" onclick="enableStep2()" class="btn btn-lg enroll studentBlueButton">Step 1: Read and Understand this Disclaimer</button></a><br><br>
+            <a href="./files/CiC_Fillable_ACH_Form_PDF.pdf" target="_blank" disabled><button
+                type="button" id="step2" onclick="enableStep3()" disabled class="btn btn-lg enroll studentBlueButton">Step 2: Complete the ACH Form and Mail to Jesse</button></a><br><br>
+            <a href="https://forms.gle/yj99s5t8FTzYTVcY9" target="_blank" disabled><button
+                type="button" id="step3" disabled class="btn btn-lg enroll studentBlueButton">Step 3: Complete the hour tracking form</button></a>
             </div>
         </div>
     </div>
