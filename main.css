@@ -106,28 +106,28 @@ body {
 }
 
 .index-banner {
-  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/hu-x-banner.JPG);
+  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/cic-intro-banner.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 4%;
 }
 
 .student-banner {
-  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/index.jpg);
+  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/student-banner.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 4%;
 }
 
 .instructor-banner {
-  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/instructor.jpg);
+  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/instructor2.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 4%;
 }
 
 .partner-banner {
-  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/student.jpg);
+  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(0, 77, 145, 0.6)), url(./assets/banners/partner-banner.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 4%;
