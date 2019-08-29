@@ -9,6 +9,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/03a8ed9599.js"></script>
+
   <!-- Our Css -->
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="mobile.css">
@@ -186,33 +189,64 @@
     </div>
   </div> -->
 
+  <!-- ty, https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=testimonial-carousel -->
+  <div class="container">
+      <div class="row text-center marginTopBottom">
+        <div class="col-md-12 col-center m-auto">
+          <h2>Testimonials</h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item carousel-item active">
+                <div class="img-box"><img src="assets/team/doug.png" alt=""></div>
+                <p class="testimonial">The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software
+                    developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training
+                    at a <strong>fraction of the cost of a college degree</strong>.
+                    
+                    <!-- Not only that, their curriculums are centered around the core
+                    elements of computer programming that are directly tied to current market demands. This makes coding bootcamp
+                    graduates appealing job candidates to employers. -->
+                  
+                  </p>
+                <p class="overview"><b>DOUG CRESCENZI</b>, Founder</p>
+              </div>
 
-  <div class="row bottomMiddle">
-    <div class="col-md-12 col-12 mx-auto">
-      <div class="tryDisplays">
-        <img class="greenQuotation" src="./assets/green-quote.png" alt="Responsive image">
-        <h3 class="screenQuote">
-          The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software
-          developers graduating from universities and the relative demand for them from the technology sector.
-          <br><br>
-          The reason coding bootcamps have proven effective over the years is because they provide vocational training
-          at a fraction of the cost of a college degree. Not only that, their curriculums are centered around the core
-          elements of computer programming that are directly tied to current market demands. This makes coding bootcamp
-          graduates appealing job candidates to employers.
-          <br><br>
-          <span class="quoter">-DOUG CRESCENZI, FOUNDER</span><br><br>
-          <a href="./testimonials.html"
-        target="_blank"><button type="button" class="btn btn-lg enroll studentBlueButton">More Testimonials</button></a>
-        </h3>
+              <div class="item carousel-item">
+                <div class="img-box"><img src="assets/students/Kelly.jpg" alt=""></div>
+                <p class="testimonial">Applying for Careers in Code was one of the <strong>best decisions I've made in my entire life</strong>! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community.</p>
+                <p class="overview"><b>Kelly Corey</b>, Cohort I Graduate</p>
+              </div>
+
+              <div class="item carousel-item">
+                <div class="img-box"><img src="assets/instructors/joeybphoto.jpeg" alt=""></div>
+                <p class="testimonial">Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.</p>
+                <p class="overview"><b>Joey Buczek</b>, Cohort I Instructor</p>
+              </div>
+              
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <i class="fas fa-angle-left"></i>
+            </a>
+            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+          <a href="./testimonials.html"><button type="button" class="btn btn-lg enroll studentBlueButton text-center">View More Testimonials</button></a>
+        </div>
       </div>
-
     </div>
-  </div>
 
   <div class="container">
     <div class="row bottom screen">
       <div class="bottomBlueSquare col-md-4 col-12 bottomBlueText">
-        <img class="position-absolute bottomLeftLines" src="./assets/code-2.png" alt="Responsive image">
+        <!-- <img class="position-absolute bottomLeftLines" src="./assets/code-2.png" alt="Responsive image"> -->
         <h1 class="bottomTitle">Students</h1>
         <p class="bottomSquaresText">Transform your career. The average salary for coding bootcamp graduates according
           to the Council on Integrity in Results Reporting is $53,273.</p>
