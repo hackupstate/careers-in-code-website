@@ -58,6 +58,24 @@
   <meta property="og:type" content="website">
 
   <title>Careers in Code - 24 week coding bootcamp for women and minorities from distressed communities</title>
+
+  <style>
+    .iframe-container {
+      overflow: hidden;
+      // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+      padding-top: 56.25%;
+      position: relative;
+    }
+    
+    .iframe-container iframe {
+      border: 0;
+      height: 600;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 50%;
+    }
+  </style>
 </head>
 
 <body class='container-fluid'>
@@ -327,7 +345,9 @@
     <div class="col-12 text-center">
       <h3>Congrats to our Cohort I Graduates!</h3><br>
       <!-- <p class="grey">Our 12 students are passionate and driven !</p> -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/3N0K2ZgpB0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="iframe-container">
+          <iframe style="position: relative; overflow: hidden;" width="560" height="315" src="https://www.youtube.com/embed/3N0K2ZgpB0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
