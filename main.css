@@ -505,7 +505,7 @@ body {
 
 .carousel .item .img-box {
   width: 200px;
-  height: 200px;
+  /* height: 200px; */
   margin: 0 auto;
   padding: 5px;
   border: 1px solid #ddd;
