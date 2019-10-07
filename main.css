@@ -140,8 +140,8 @@ body {
   margin-top: 5%;
 }
 
-.grey {
-  color: #8d959a;
+.font-color {
+  color: #0a0a0a;
   font-size: 20px;
 }
 
@@ -496,7 +496,7 @@ body {
 }
 
 .carousel .item {
-  color: #8d959a;
+  color: #0a0a0a;
   font-size: 18px;
   text-align: center;
   overflow: hidden;
