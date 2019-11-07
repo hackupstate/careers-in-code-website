@@ -203,4 +203,8 @@
     color: #002333;
     font-size: xx-large;
   }
+
+  iframe {
+    width: 100%;
+  }
 }
