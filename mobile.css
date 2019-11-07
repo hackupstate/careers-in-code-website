@@ -1,13 +1,12 @@
 /* For mobile */
 
 @media only screen and (max-width: 600px) {
-
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .noPads {
@@ -16,7 +15,8 @@
   }
 
   .studyGirl {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/hero-8-wide.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(./assets/hero-8-wide.jpg);
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -89,7 +89,7 @@
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
-}
+  }
 
   .studentMiddleText {
     padding-top: 15%;
@@ -99,7 +99,7 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
-    
+
   .middleText {
     margin-top: 20%;
     padding-left: 5px;
@@ -116,9 +116,9 @@
   }
 
   .container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
   .busyPeople {
     position: relative;
@@ -176,7 +176,7 @@
 
   .bottomRightLines {
     left: 67%;
-    height: 20%
+    height: 20%;
   }
 
   .logo {
@@ -193,7 +193,7 @@
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 50px;
-   }
+  }
 
   .zeroPadding {
     padding-left: 15px;
