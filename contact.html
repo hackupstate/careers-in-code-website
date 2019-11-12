@@ -61,7 +61,7 @@
 </head>
 
 <body class='container-fluid'>
-  <div class="onJumbotron row student-banner">
+  <div class="onJumbotron row partner-banner ">
     <div class="row changeWidth">
       <nav class="navbar navbar-dark noPads pads navbar-expand-lg">
         <a href="./index.html">
@@ -145,61 +145,45 @@
     <div class="container">
       <div class="row jumboStuff">
         <div class="col-12 jumbotextPadding screen jumboNoTopMargin">
-          <h1 class="display-6" id="jumbotext">Meet the team behind Careers in Code.</h1>
+          <h1 class="display-6" id="jumbotext">Contact Us</h1>
+          <p class="jumboLead">We would love to hear from you! Please fill out the form below and we will get back to you as soon as we can. We are so excited to share our passion for growing the technology community in Central New York, and look forward to hearing from you!</p><br><p class="jumboLead">Thank you for supporting our mission.</p>
+          <!-- <div class="jumboButtons">
+            
+          </div> -->
         </div>
       </div>
     </div>
   </div>
-
-  <div class="marginTopBottom marginLeftRight" id="about">
-
-    <div class="row moduleZero">
-      <div class="col-12 text-center">
-        <p class="font-color">Our team of experienced technology and community professionals are passionate and
-          committed to uplifting the Central New York community. If you are interested in helping out, send us am email!
-          <br> <a href="mailto:team@hackupstate.com">team@hackupstate.com</a></p>
+  <div class="container" style="margin-top: 40px; max-width: 600px; width:auto;">
+    <div class="row marginTopBottom text-center">
+      <div class="col-md-12 col-12">
+        <form name="contactForm" method="POST" data-netlify="true">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="email"><h4>Email</h4></label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name"><h4>Name</h4></label>
+                  <input type="text" class="form-control" id="name" placeholder="Tell us your name">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="message"><h4>Message</h4></label>
+                    <textarea class="form-control" id="message" name="Message" placeholder="Enter your message here" style="max-width: 100%;"></textarea>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-lg blueBtn" style="width: 100%;">Send</button>
+                </div>
+              </div>
+        </form>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row moduleZero">
-
-        <div class="col-md-6 text-center mb-3">
-          <img class="rounded-circle img-fluid team" src="assets/team/jesse.png" alt="team member">
-          <h4>Jesse Peplinski</h4>
-          <p class="font-color">Partner</p>
-        </div>
-
-        <div class="col-md-6 text-center mb-3">
-          <img class="rounded-circle img-fluid team" src="assets/team/doug.png" alt="team member">
-          <h4>Doug Crescenzi</h4>
-          <p class="font-color">Partner</p>
-        </div>
-
-        <div class="col-md-6 text-center mb-3">
-          <img class="rounded-circle img-fluid team" src="assets/team/will.png" alt="team member">
-          <h4>Will Guisbond</h4>
-          <p class="font-color">Intern</p>
-        </div>
-
-        <div class="col-md-6 text-center mb-3">
-          <img class="rounded-circle img-fluid team" src="assets/team/jason.png" alt="team member">
-          <h4>Jason Scharf</h4>
-          <p class="font-color">Student Success Representative</p>
-        </div>
-
-        <div class="col-md-12 text-center mb-3">
-          <button type="button" class="btn btn-lg blueBtn"
-            onclick="window.open('https://medium.com/@hackupstate/meet-the-careers-in-code-team-66aa6a9d2c')">Meet our
-            Team</button>
-        </div>
-
-      </div>
-
-    </div>
-
-
   </div>
+
   <div class="row studentTail">
     <div class="col-md-4 text-center footerText mb-4">
       <h4 class="font-weight-bold mb-3">Contact</h4>
