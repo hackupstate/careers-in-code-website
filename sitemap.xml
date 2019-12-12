@@ -9,28 +9,103 @@
 
 <url>
   <loc>https://careersincode.org/</loc>
-  <lastmod>2018-12-12T13:15:06+00:00</lastmod>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://careersincode.org/student</loc>
-  <lastmod>2018-12-12T13:15:06+00:00</lastmod>
+  <loc>https://careersincode.org/mission</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://careersincode.org/instructor</loc>
-  <lastmod>2018-12-12T13:15:06+00:00</lastmod>
+  <loc>https://careersincode.org/team</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://careersincode.org/partner</loc>
-  <lastmod>2018-12-12T13:15:06+00:00</lastmod>
+  <loc>https://careersincode.org/press</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/newsletters</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/testimonials</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/schedule</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://careersincode.org/faq</loc>
-  <lastmod>2018-12-12T13:15:06+00:00</lastmod>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/classroom</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/speakers</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/instructors</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/students</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/alumni</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/partner</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/outcomes</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/contact</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/assets/files/Careers-In-Code-Student-Outcomes-Report-3.pdf</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/assets/files/Careers-In-Code-Student-Outcomes-Report-2.pdf</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://careersincode.org/assets/files/Careers-In-Code-Student-Outcomes-Report-1.pdf</loc>
+  <lastmod>2019-12-12T14:06:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
