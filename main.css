@@ -508,6 +508,10 @@ body {
   margin-right: 20%;
 }
 
+.table {
+  margin-bottom: 50px;
+}
+
 /* MATERIALS CONTAINER STYLES */
 #materialsContainer {
   margin-top: 40px;
