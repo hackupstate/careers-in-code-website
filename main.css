@@ -37,6 +37,10 @@ body {
   width: auto;
 }
 
+.alumniVideo {
+  padding: 10px;
+}
+
 /* BUTTONS */
 
 .getStarted {
