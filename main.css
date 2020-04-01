@@ -462,6 +462,13 @@ body {
   padding-right: 10%;
 }
 
+.outcomesStats {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .blueStats {
   color: #002333;
   font-size: 64px;
