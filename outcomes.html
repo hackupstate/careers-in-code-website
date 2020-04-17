@@ -58,6 +58,52 @@
   <meta property="og:type" content="website">
 
   <title>Careers in Code - 24 week coding bootcamp for women and minorities from distressed communities</title>
+
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .job-logo {
+      padding: 15px;
+    }
+    </style>
+
 </head>
 
 <body class='container-fluid'>
@@ -151,117 +197,180 @@
         <div class="col-12 jumbotextPadding screen jumboNoTopMargin">
           <h1 class="display-6" id="jumbotext">Our Graduates Are Going Places</h1>
           <p class="jumboLead">See how our students are making positive impacts, serving their communities, and getting their dream jobs after graduation.</p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row text-center marginTopBottom">
-      <div class="col-md-12 col-center m-auto">
-        <h3>Hiring Success Stories</h3>
-        <p>Our curriculum prepares students for the real-world job force from day one. From completing a capstone project that they can showcase to employers to attending countless 
-          networking events, our students are primed to jump right in after graduation. Click on a student's photo to read about their success!
-        </p>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Carousel indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-          </ol>
-          <!-- Wrapper for carousel items -->
-          <div class="carousel-inner">
-            <div class="item carousel-item active">
-              <p class="overview"><b>Kaitlyn Warboy</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28"><img src="assets/students/Kaitlyn.jpg" alt=""></a></div>
-              <p class="overview"><b>Junior Software Developer</b></p>
-              <p>Raymour & Flanigan</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"></p><b>Kelly Corey</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-kelly-corey-622836412fa8"><img src="assets/students/kellycorey.JPG" alt=""></a></div>
-              <p class="overview"><b>Web Developer Consultant</b></p>
-              <p>Upstate Interactive</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"><b>Karin Thorne</b></p>
-              <div class="img-box"><a href=""><img src="assets/students/karin.jpg" alt=""></a></div>
-              <p class="overview"><b>Web Developer</b></p>
-              <p>Gypsum Express</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"><b>Eva Carafa</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-eva-carafa-4e3e2c8fd692"><img src="assets/students/Eva.jpg" alt=""></a></div>
-              <p class="overview"><b>Digital Content Specialist</b></p>
-              <p>Terakeet</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"><b>Dakir Thompson</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-dakir-thompson-f755ab92df28"><img src="assets/students/dakir.jpg" alt=""></a></div>
-              <p class="overview"><b>Full Stack Web Developer</b></p>
-              <p>Northeast Information Discovery</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"><b>Elizabeth Metcalf</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-elizabeth-metcalf-93887e09f67a"><img src="assets/students/beth.jpg" alt=""></a></div>
-              <p class="overview"><b>Web Developer Contractor</b></p>
-              <p>Nonprofit Agency</p>
-            </div>
-
-            <div class="item carousel-item">
-              <p class="overview"><b>Dana McMullen</b></p>
-              <div class="img-box"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-dana-davis-mcmullen-41027c54581a"><img src="assets/students/Dana.jpg" alt=""></a></div>
-              <p class="overview"><b>Multiple Positions</b></p>
-              <p>Syracuse, NY</p>
-            </div>
-
-          </div>
-          <!-- Carousel controls -->
-          <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <i class="fas fa-angle-left"></i>
-          </a>
-          <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-            <i class="fas fa-angle-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="onJumbotron row instructor-banner ">
-  <div class="container">
-    <div class="row jumboStuff">
-      <div class="col-12 jumbotextPadding screen jumboNoTopMargin">
-        <h1 class="display-6" id="jumbotext">Transparent & Accurate Outcomes</h1>
-        <p class="jumboLead">Our students have reported a <b>56% increase in their wages</b> as a result of completing the program. <Br>Learn more by reading our reports:</p>
-
+          
           <div class="centerThing">
             <a class="btn btn-lg whiteBtn" href="assets/files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf" target="_blank">View Final Outcomes Report (0-180 days)</a>
             <a class="btn btn-lg whiteBtn" href="assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf" target="_blank">View Transparency Report</a>
           </div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row moduleZero">
+
+        <main role="main">
+
+            <div class="container">
+                <h2 style="text-align: center"> Hiring Success Stories</h2>
+                <div class="album py-5 bg-light">
+                    <div class="container" style="text-align: center">
+                        <div class="row">
+                            <!-- eva carafa -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Eva Carafa </h3>
+                                    <img src="./assets/students/Eva.jpg" alt="Eva Carafa" class="mx-auto d-block"
+                                        height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Digital Content Specialist</b><br>Terakeet</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-eva-carafa-4e3e2c8fd692')"> Read Eva's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- kelly corey -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Kelly Corey </h3>
+                                    <img src="./assets/students/kellycorey.JPG" alt="Kelly Corey"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Web Developer Consultant</b><br>Upstate Interactive</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-kelly-corey-622836412fa8')"> Read Kelly's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- dana mcmullen -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Dana McMullen </h3>
+                                    <img src="./assets/students/Dana.jpg" alt="Dana McMullen"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Mutliple Positions</b><br>Syracuse, NY</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-dana-davis-mcmullen-41027c54581a')"> Read Dana's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- elizabeth metcalf -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Elizabeth Metcalf </h3>
+                                    <img src="./assets/students/beth.jpg" alt="Elizabeth Metcalf"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Web Developer Contractor</b><br>Non-Profit Agency</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-elizabeth-metcalf-93887e09f67a')"> Read Beth's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- dakir thompson -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Dakir Thompson </h3>
+                                    <img src="./assets/students/dakir.jpg" alt="Dakir Thompson"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Full-Stack Web Developer</b><br>Northeast Information Discovery</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-dakir-thompson-f755ab92df28')"> Read Dakir's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- karin thorne -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Karin Thorne </h3>
+                                    <img src="./assets/students/karin.jpg" alt="Karin Thorne"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Front-End Developer</b><br>Gypsum Express</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-karin-thorne-4ed8603a2c3e')"> Read Karin's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- kaitlyn warboy -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Kaitlyn Warboy </h3>
+                                    <img src="./assets/students/Kaitlyn.jpg" alt="Kaitlyn Warboy"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Junior Software Developer</b><br>Raymour & Flanigan</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn btn-lg blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28')"> Read Kaitlyn's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+
+  <div class="row studentMargin">
+    <div class="col-md-12 col-12 middleGreyImage">
+
+      <div class="row text-center">
+          <div class="col-lg-12">
+            <h2 class="m-3">Outcomes</h2>
+          </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 col-12 outcomesStats">
+          <h3 class="blueStats text-uppercase">7 of 11</h3>
+          <p class="midGreen">Students that have obtained jobs, internships, or consulting arrangements with local employers within 180 days of graduation.</p>
+        </div>
+        <div class="col-md-6 col-12 outcomesStats">
+          <h3 class="blueStats text-uppercase">56%</h3>
+          <p class="midBlue">The average increase in annual salary for students who completed the full 24 week coding bootcamp within 180 days of graduation.</p>
+        </div>
       </div>
 
     </div>
   </div>
-</div>
+
 
 <div class="container">
   <div class="row text-center marginTopBottom">
     <div class="col-md-12 col-center m-auto">
-      <h3>Our Students Love Careers in Code</h3>
-      <p>Not fully convinced? Read about the student experience first hand and see how impactful our program has been</p>
-      <button type="button" class="btn btn-lg greenBtn darkerGreen" onclick="window.location.href= 'testimonials.html';">Testimonials</button>
+      <h3>Our Talent Stays Local</h3>
+        <a href="https://upstateinteractive.io/"><img class="job-logo" width="20%" src="assets/partner-logos/ui.png"></a>
+        <a href="https://neidinc.com/"><img class="job-logo" width="20%" src="assets/partner-logos/nid.webp"></a>
+        <a href="https://terakeet.com/"><img class="job-logo" width="20%" src="assets/partner-logos/terakeet.png"></a>
+        <a href="http://www.gypsumexpress.com/"><img class="job-logo" width="20%" src="assets/partner-logos/gypsum.png"></a>
     </div>
   </div>
 </div>
