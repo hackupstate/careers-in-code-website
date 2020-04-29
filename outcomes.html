@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/03a8ed9599.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
   <!-- Our Css -->
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="mobile.css">
@@ -58,6 +62,52 @@
   <meta property="og:type" content="website">
 
   <title>Careers in Code - 24 week coding bootcamp for women and minorities from distressed communities</title>
+
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .job-logo {
+      padding: 15px;
+    }
+    </style>
+
 </head>
 
 <body class='container-fluid'>
@@ -150,71 +200,219 @@
       <div class="row jumboStuff">
         <div class="col-12 jumbotextPadding screen jumboNoTopMargin">
           <h1 class="display-6" id="jumbotext">Outcomes</h1>
-          <p class="jumboLead">This report includes data regarding our 12 students who enrolled in our first cohort of
-            Careers in Code. The program started on March, 11 2019 and ended on August 22, 2019. Classes were held
-            Monday through Thursday, 5:30pm to 8:30pm at the Technology Garden in Syracuse, NY. </p>
-
-            <div class="centerThing">
-              <a class="btn btn-lg whiteBtn" href="assets/files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf" target="_blank">View Final Outcomes Report (0-180 days)</a>
-              <a class="btn btn-lg whiteBtn" href="assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf" target="_blank">View Transparency Report</a>
-            </div>
+          <p class="jumboLead">Our first cohort of Careers in Code started on March, 11 2019 and ended on August 22, 2019. Classes were held Monday through Thursday, 5:30pm to 8:30pm at the Technology Garden in Syracuse, NY. Learn more about our job placement and student experience after graduation.</p>
+          
+          <div class="centerThing">
+            <a class="btn btn-lg whiteBtn pb-2" href="assets/files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf" target="_blank">View Outcomes Report</a>
+            <a class="btn btn-lg whiteBtn" href="assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf" target="_blank">View Transparency Report</a>
+          </div>
+      
         </div>
-
       </div>
     </div>
   </div>
 
-  <div class="row mt-5 marginLeftRight">
-      <h3>Graduate Success Stories</h3>
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">Graduate Name</th>
-            <th scope="col">Position</th>
-            <th scope="col">Company/Location</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Karin Thorne</th>
-            <td>Web Developer</td>
-            <td>Gypsum Express (Baldwinsville, NY)</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-kelly-corey-622836412fa8" target="_blank">Kelly Corey</a></th>
-            <td>Web Developer Consultant</td>
-            <td>Upstate Interactive (Syracuse, NY)</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-dakir-thompson-f755ab92df28" target="_blank">Dakir Thompson</a></th>
-            <td>Full-stack Web Developer</td>
-            <td>Northeast Information Discovery (Canastota, NY)</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-eva-carafa-4e3e2c8fd692" target="_blank">Eva Carafa</a></th>
-            <td>Digital Content Specialist</td>
-            <td>Terakeet (Syracuse, NY)</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-dana-davis-mcmullen-41027c54581a" target="_blank">Dana (Davis) McMullen</a></th>
-            <td>Multiple Part-time Internships and Freelance Positions</td>
-            <td>Syracuse, NY</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28" target="_blank">Kaitlyn Warboy</a></th>
-            <td>Junior Software Developer</td>
-            <td>Raymour & Flanigan (Liverpool, NY)</td>
-          </tr>
-          <tr>
-            <th scope="row"><a href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-elizabeth-metcalf-93887e09f67a" target="_blank">Elizabeth Metcalf</a></th>
-            <td>Web Developer Contractor</td>
-            <td>Nonprofit Agency</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="container">
+    <div class="row moduleZero">
 
-<!-- end table -->
+        <main role="main">
+
+            <div class="container">
+                <h2 style="text-align: center">Graduate Success Stories</h2>
+                <div class="album py-5">
+                    <div class="container" style="text-align: center">
+                        <div class="row">
+                            <!-- eva carafa -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Eva Carafa </h3>
+                                    <img src="./assets/students/Eva.jpg" alt="Eva Carafa" class="mx-auto d-block"
+                                        height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Digital Content Specialist</b><br>Terakeet (Syracuse, NY)</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-eva-carafa-4e3e2c8fd692')"> Read Eva's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- kelly corey -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Kelly Corey </h3>
+                                    <img src="./assets/students/kellycorey.JPG" alt="Kelly Corey"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Web Developer Consultant</b><br>Upstate Interactive (Remote)</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-kelly-corey-622836412fa8')"> Read Kelly's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- dana mcmullen -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Dana McMullen </h3>
+                                    <img src="./assets/students/Dana.jpg" alt="Dana McMullen"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Mutliple Positions</b><br>Syracuse, NY</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-dana-davis-mcmullen-41027c54581a')"> Read Dana's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- elizabeth metcalf -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Elizabeth Metcalf </h3>
+                                    <img src="./assets/students/beth.jpg" alt="Elizabeth Metcalf"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Web Developer Contractor</b><br>Non-Profit Agency</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-elizabeth-metcalf-93887e09f67a')"> Read Beth's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- dakir thompson -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Dakir Thompson </h3>
+                                    <img src="./assets/students/dakir.jpg" alt="Dakir Thompson"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Full-Stack Web Developer</b><br>Northeast Information Discovery (Canastota, NY)</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-dakir-thompson-f755ab92df28')"> Read Dakir's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- karin thorne -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Karin Thorne </h3>
+                                    <img src="./assets/students/karin.jpg" alt="Karin Thorne"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Front-End Developer</b><br>Gypsum Express (Baldwinsville, NY)</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-karin-thorne-4ed8603a2c3e')"> Read Karin's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- kaitlyn warboy -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 shadow-sm">
+                                    <h3 style="text-align: center"> Kaitlyn Warboy </h3>
+                                    <img src="./assets/students/Kaitlyn.jpg" alt="Kaitlyn Warboy"
+                                        class="mx-auto d-block" height="200" width="200">
+                                    <div class="card-body">
+                                      <p><b>Junior Software Developer</b><br>Raymour & Flanigan (Liverpool, NY)</p>
+                                      <div class="mx-auto d-block" height="200" width="200">
+                                        <button type="button" class="btn blueBtn mb-3"
+                                          onclick="window.open('https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28')"> Read Kaitlyn's Story
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+
+  <div class="row">
+    <div class="col-md-12 col-12 middleGreyImage">
+
+      <div class="row text-center">
+          <div class="col-lg-12">
+            <h2 class="m-3">Outcomes</h2>
+          </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 col-12 outcomesStats">
+          <h3 class="blueStats text-uppercase">7 of 11</h3>
+          <p class="midGreen">Students that have obtained jobs, internships, or consulting arrangements with local employers within 180 days of graduation.</p>
+        </div>
+        <div class="col-md-6 col-12 outcomesStats">
+          <h3 class="blueStats text-uppercase">56%</h3>
+          <p class="midBlue">The average increase in annual salary for students who completed the full 24 week coding bootcamp within 180 days of graduation.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row marginTopBottom text-center">
+      <div class="col-md-12 col-12">
+        <h3>Our Talent Stays Local</h3>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 p-5 sponsor-photo">
+        <a href="https://upstateinteractive.io/" target="_blank">
+          <img src="assets/partner-logos/ui.png" class="img-fluid d-block mx-auto" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12  p-5 sponsor-photo">
+        <a href="https://neidinc.com/" target="_blank">
+          <img src="assets/partner-logos/nid.webp" class="img-fluid d-block mx-auto" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 p-5 sponsor-photo">
+        <a href="https://terakeet.com/" target="_blank">
+          <img src="assets/partner-logos/terakeet.png" class="img-fluid d-block mx-auto" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 p-5 sponsor-photo">
+        <a href="http://www.gypsumexpress.com/" target="_blank">
+          <img src="assets/partner-logos/gypsum.png" class="img-fluid d-block mx-auto" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 p-5 sponsor-photo">
+        <a href="https://www.raymourflanigan.com/" target="_blank">
+          <img src="assets/partner-logos/220px-Raymour_&_Flanigan_logo_2018.jpg" class="img-fluid d-block mx-auto" alt="">
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div style="background-color: #33ff99; padding-top: 85px; padding-bottom: 85px;" class="row text-center">
+    <div class="col-md-12 col-12">
+      <i><a href="testimonials.html"><h5 style="color: white;">What did our students think of Careers in Code? Read the testimonials <i class="fas fa-arrow-right"></i>
+      </h5></a></i>
+    </div>
+  </div>
 
   <div class="row studentTail">
     <div class="col-md-4 text-center footerText mb-4">
